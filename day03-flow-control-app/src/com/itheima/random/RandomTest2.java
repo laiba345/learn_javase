@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class RandomTest2 {
     public static void main(String[] args) {
         // 1、随机产生一个1-100之间的数据，做为中奖号码。
+        // Random也表示一个常见的API, 有着大的作用,
         Random r = new Random();
         int luckNumber = r.nextInt(100) + 1;
 
