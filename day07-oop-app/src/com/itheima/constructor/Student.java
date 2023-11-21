@@ -19,6 +19,21 @@ package com.itheima.constructor;
 public class Student {
     String name; // 名字
     double score; // 分数
+
+    /*
+    *   构造器有什么特点?
+    *       - 创建对象时,对象会去调用构造器
+    *       - Student s = new Student()
+    *   构造器的常用应用场景
+    *       - 创建对象时,同时完成对对象成员变量(属性)的初始化赋值
+    *
+    *   构造器注意事项
+    *       1. 类在设计时,如果不写构造器,java是会为类自动生成一个无参构造器
+    *       2. 一旦定义了有参数构造器,java就不会帮我们的类自动生成无参数构造器了,
+    *       此时建议自己手写一个无参数构造器出来了;
+    *           - 如果不写无参数,调用的话会报错
+    *
+    * */
     // 无参数构造器
     public Student(){
         System.out.println("无参数构造器被触发执行了~");
