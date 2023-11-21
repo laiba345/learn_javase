@@ -3,6 +3,7 @@ package com.itheima.constructor;
 public class Test {
     public static void main(String[] args) {
         // 目标：认识构造器，并掌握构造器的特点、应用场景、注意事项。
+        // 创建一个学生对象, 封装波妞的数据
         Student s = new Student("播仔", 99);
 
         Student s1 = new Student();
