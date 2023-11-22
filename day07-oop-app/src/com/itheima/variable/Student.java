@@ -7,7 +7,7 @@ public class Student {
 
     public void aaa(){
         double score = 98;
-        System.out.println(score);
-        System.out.println(this.score);
+        System.out.println(score); // 就近原则,使用的就是上方的
+        System.out.println(this.score); // 想要使用类里面的,需要使用this关键字来获取
     }
 }
