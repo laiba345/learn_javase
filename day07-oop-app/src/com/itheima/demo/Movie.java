@@ -1,5 +1,6 @@
 package com.itheima.demo;
 
+// 书写一个类出来
 public class Movie {
     private int id;
     private String name;
