@@ -8,10 +8,11 @@ import java.util.Scanner;
  */
 public class FoodOperator {
     // 1、定义一个ArrayList集合对象，负责存储菜品对象信息
+    // 集合当中可以存取一个一个的对象的相关操作; 集合中放的是商品的相关内容;
     private ArrayList<Food> foodList = new ArrayList<>();
     // foodList = []
 
-    // 2、开发功能：上架菜品功能。
+    // 2、开发功能：上架菜品功能。 直接用来模拟: 菜品或者是数据的相关上架操作;
     public void addFood(){
         // 3、创建一个菜品对象，封装上架的菜品信息
         Food f = new Food();
@@ -44,6 +45,7 @@ public class FoodOperator {
             return;
         }
         for (int i = 0; i < foodList.size(); i++) {
+            // 因为foodList存取的是一个个菜品对象;
             Food f = foodList.get(i);
             System.out.println(f.getName());
             System.out.println(f.getPrice());
@@ -63,6 +65,7 @@ public class FoodOperator {
             Scanner sc = new Scanner(System.in);
             System.out.println("请选择您的操作：");
             String command = sc.next();
+            // 通过switch...case...来选取具体是哪一个命令
             switch (command) {
                 case "1":
                     addFood();

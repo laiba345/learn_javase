@@ -16,6 +16,7 @@ public class ArrayListTest2 {
     public static void main(String[] args) {
         // 1、创建一个ArrayList集合对象
         ArrayList<String> list = new ArrayList<>();
+        // 使用add来进行添加数据的相关操作
         list.add("枸杞");
         list.add("Java入门");
         list.add("宁夏枸杞");
@@ -44,6 +45,7 @@ public class ArrayListTest2 {
         // [Java入门,  人字拖]
        //                       i
         // 方式一：每次删除一个数据后，就让i往左边退一步
+        // 控制i的值来进行相关操作
        /* for (int i = 0; i < list.size(); i++) {
             // i = 0 1 2 3 4 5
             // 取出当前遍历到的数据
@@ -57,7 +59,8 @@ public class ArrayListTest2 {
         }
         System.out.println(list);*/
 
-        // 方式二：从集合的后面倒着遍历并删除
+        // 方式二：从集合的后面倒着遍历并删除;
+        // 倒着删除就不会出现相关的问题;
         // [Java入门, 人字拖]
         //   i
         for (int i = list.size() - 1; i >= 0; i--) {
