@@ -6,6 +6,11 @@ import java.util.Scanner;
    目标：完成用户的登录案例。
  */
 public class StringTest4 {
+    /*
+    *   字符串的比较
+    *       - 基本数据类型的变量或者值应该使用 == 来比较
+    *       - 开发中比较字符串推荐使用equals方法,它只关心字符串内容一样就返回true
+    * */
     public static void main(String[] args) {
             // 1、开发一个登录界面
         for (int i = 0; i < 3; i++) {
@@ -28,6 +33,7 @@ public class StringTest4 {
 
     /**
       2、开发一个登录方法，接收用户的登录名和密码，返回认证的结果
+      这里给定了相应的内容操作,这一点很关键就是如此;
      */
     public static boolean login(String loginName, String passWord){
         // 3、准备一份系统正确的登录名和密码
@@ -41,6 +47,7 @@ public class StringTest4 {
         }else {
             return false;
         }*/
+        // 效果是一样的
         return okLoginName.equals(loginName) && okPassWord.equals(passWord);
     }
 }

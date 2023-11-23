@@ -1,6 +1,9 @@
 package com.itheima.string;
 
 public class StringDemo2 {
+    /*
+    *   API是解决相关需求的,这一点很关键!
+    * */
     public static void main(String[] args) {
         System.out.println(new Object());
         // 目标：快速熟悉String提供的处理字符串的常用方法。
@@ -19,6 +22,8 @@ public class StringDemo2 {
             System.out.println(ch);
         }
 
+//        5.fori 简单书写循环的遍历形式;
+
         System.out.println("-------------------");
 
         // 3、把字符串转换成字符数组，再进行遍历
@@ -31,7 +36,7 @@ public class StringDemo2 {
         String s1 = new String("黑马");
         String s2 = new String("黑马");
         System.out.println(s1 == s2); // false
-        System.out.println(s1.equals(s2)); // true
+        System.out.println(s1.equals(s2)); // true  判断字符串中的内容,内容一样就返回true
 
         // 5、忽略大小写比较字符串内容
         String c1 = "34AeFG";
@@ -41,6 +46,7 @@ public class StringDemo2 {
 
         // 6、截取字符串内容 (包前不包后的)
         String s3 = "Java是最好的编程语言之一";
+        // 使用一个String变量来进行相应的接收操作;
         String rs = s3.substring(0, 8);
         System.out.println(rs);
 

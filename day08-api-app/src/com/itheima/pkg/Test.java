@@ -1,4 +1,5 @@
 package com.itheima.pkg;
+// 访问别的包下的程序,需要将包裹进行相应的导入操作;
 import com.itheima.pkg.itcast.Demo1;
 import com.itheima.pkg.itheima.Demo2;
 import java.util.Random;
@@ -26,6 +27,7 @@ public class Test {
         Demo2 d3 = new Demo2();
         d3.print();
 
+        // 默认只能导入一个程序,另一个程序必须带包名和类名来访问
         com.itheima.pkg.itcast.Demo2 d4 = new com.itheima.pkg.itcast.Demo2();
         d4.print();
     }

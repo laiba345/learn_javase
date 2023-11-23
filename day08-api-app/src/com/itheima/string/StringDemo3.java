@@ -3,13 +3,15 @@ package com.itheima.string;
 public class StringDemo3 {
     public static void main(String[] args) {
         // 目标：搞清楚String使用时的几个注意事项。
-        // 1、String的对象是不可变的？？？
+        // 1、String的对象是不可变的？？？ 只要是双引号方式写出的字符串对象,会在堆内存中的字符串常量池中存储
+        // 为什么这么设计呢? 为了很好的节约内存!
         String name = "黑马";
         name += "程序员"; // name = name + "程序员"
         name += "播妞";
         System.out.println(name);
 
         // 2、只要是以双引号给出的字符串对象，存储在常量池中，而且内容相同时只会存储一份
+        // 内容相同时只会存储一份
         String s1 = "abc";
         String s2 = "abc";
         System.out.println(s1 == s2);
