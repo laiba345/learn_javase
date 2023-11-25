@@ -33,6 +33,7 @@ public class Test {
         System.out.println(s1.age); // 23
         System.out.println(s2.age);
 
+        // 报错; 不清楚是第一个还是第二个;
         // System.out.println(Student.age); // 报错  实例变量只能通过对象来进行访问操作
 
     }

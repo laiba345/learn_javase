@@ -10,6 +10,7 @@ public class Student {
         schoolName = "黑马";
         printHelloWorld2();
 
+        // 不可以直接访问实例成员;
         // System.out.println(score); // 报错的
         // printPass(); // 报错的
 
@@ -29,6 +30,7 @@ public class Student {
         printHelloWorld2();
 
         System.out.println(score);
+        // 实例方法中既可以直接访问类成员,也可以直接访问实例成员;
         printPass2();
 
         System.out.println(this);
