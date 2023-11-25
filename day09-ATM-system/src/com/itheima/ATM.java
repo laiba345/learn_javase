@@ -343,6 +343,7 @@ public class ATM {
     private String createCardId(){
         while (true) {
             // 1、定义一个String类型的变量记住8位数字作为一个卡号
+            // 创建一个字符串变量, 一开始为空
             String cardId = "";
             // 2、使用循环，循环8次，每次产生一个随机数给cardId连接起来
             Random r = new Random();
@@ -363,9 +364,9 @@ public class ATM {
     private Account getAccountByCardId(String cardId){
         // 遍历全部的账户对象
         for (int i = 0; i < accounts.size(); i++) {
-            Account acc = accounts.get(i);
+            Account acc = accounts.get(i); // 获取到每一个索引对象;
             // 判断这个账户对象acc中的卡号是否是我们要找的卡号
-            if(acc.getCardId().equals(cardId)){
+            if(acc.getCardId().equals(cardId)){ // 通过eauals来进行对比
                 return acc;
             }
         }
