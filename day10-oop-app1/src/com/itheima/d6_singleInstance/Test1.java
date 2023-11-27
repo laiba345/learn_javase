@@ -5,7 +5,7 @@ public class Test1 {
         // 目标：掌握单例设计模式的写法。
         A a1 = A.getObject();
         A a2 = A.getObject();
-        System.out.println(a1);
+        System.out.println(a1); // 输出的类的地址是完全一样的;
         System.out.println(a2);
     }
 }

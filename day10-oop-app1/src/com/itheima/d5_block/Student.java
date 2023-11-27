@@ -3,7 +3,7 @@ package com.itheima.d5_block;
 public class Student {
     static int number = 80;
     static String schoolName = "黑马";
-    // 静态代码块
+    // 静态代码块; 只会执行一次
     static {
         System.out.println("静态代码块执行了~~");
         // schoolName = "黑马";

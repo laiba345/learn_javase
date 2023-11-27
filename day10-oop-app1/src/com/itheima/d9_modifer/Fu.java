@@ -21,6 +21,7 @@ public class Fu {
         System.out.println("==public==");
     }
 
+    // 在某一个类中可以调用其他类的方法也是可以的;
     public void test(){
         privateMethod();
         method();
