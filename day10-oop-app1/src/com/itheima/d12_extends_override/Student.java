@@ -29,6 +29,7 @@ public class Student extends Object{
     }
 
     @Override
+    // 重写Object类中的toString方法;
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
