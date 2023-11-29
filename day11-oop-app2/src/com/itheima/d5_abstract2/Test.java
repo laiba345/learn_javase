@@ -5,6 +5,6 @@ public class Test {
         // 目标：掌握抽象类的好处.
         Animal a = new Cat();
         a.setName("叮当猫");
-        a.cry(); // 更好的支持了多态
+        a.cry(); // 更好的支持了多态; 子类去完成这些功能
     }
 }
