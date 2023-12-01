@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Test {
     public static void main(String[] args) {
         // 目标：掌握包装类的使用。
-        // Integer a1 = new Integer(12);
+        // Integer a1 = new Integer(12);  // 过时了
         Integer a2 = Integer.valueOf(12);
         System.out.println(a2);
 
@@ -16,6 +16,7 @@ public class Test {
         int a4 = a3;
 
         // 泛型和集合不支持基本数据类型，只能支持引用数据类型。
+        // 此时就用到了基本数据类型的知识;
         // ArrayList<int> list = new ArrayList<>();
         ArrayList<Integer> list = new ArrayList<>();
         list.add(12); // 自动装箱

@@ -28,7 +28,6 @@ public class Test1 {
             String e = list1.get(i);
             System.out.println(e);
         }
-
     }
 }
 

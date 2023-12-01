@@ -1,7 +1,13 @@
 package com.itheima.d13_stringBuilder;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Test3 {
     public static void main(String[] args) {
+        int[] arr = new int[]{11, 22, 33};
+        System.out.println(arr.toString()); // [I@2a84aee7
+        System.out.println(Arrays.toString(arr)); // [11, 22, 33]
         // 目标：完成遍历数组内容，并拼接成指定格式的案例。
         System.out.println(getArrayData(new int[]{11, 22, 33}));
     }

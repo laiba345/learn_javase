@@ -11,6 +11,12 @@ public class Test2 {
 //        };
 //        go(s1);
 
+//        Swimming s1 = new Swimming() {
+//            public void swim() {
+//                System.out.println("狗子很会游泳!");
+//            }
+//        };
+
         go(new Swimming(){
             @Override
             public void swim() {

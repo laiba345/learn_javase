@@ -38,6 +38,7 @@ public class Test {
 
     }
 
+    // 此时只能接收车类型进来操作;
 //    public static <T extends Car> void go(ArrayList<T> cars){
 //
 //    }

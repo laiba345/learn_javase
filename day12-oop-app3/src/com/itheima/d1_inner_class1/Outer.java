@@ -15,7 +15,7 @@ public class Outer {
 
             int age = 66;
             System.out.println(age);// 66
-            System.out.println(this.age);// 88
+            System.out.println(this.age);// 88  this只能访问当前内部类名对象;
             System.out.println(Outer.this.age);// 99
         }
 
