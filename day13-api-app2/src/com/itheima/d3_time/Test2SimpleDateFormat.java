@@ -26,6 +26,7 @@ public class Test2SimpleDateFormat {
         // 目标：掌握SimpleDateFormat解析字符串时间 成为日期对象。
         String dateStr = "2022-12-12 12:12:11";
         // 1、创建简单日期格式化对象 , 指定的时间格式必须与被解析的时间格式一模一样，否则程序会出bug.
+        // 封装成为一个简单的对象,然后来进行相关简单的操作才行;
         SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date d2 = sdf2.parse(dateStr);
         System.out.println(d2);

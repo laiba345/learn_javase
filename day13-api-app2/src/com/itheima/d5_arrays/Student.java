@@ -9,6 +9,7 @@ public class Student implements Comparable<Student>{
     // this  o
     @Override
     public int compareTo(Student o) {
+        // 指定比较操作有相关的约定;
         // 约定1：认为左边对象 大于 右边对象 请您返回正整数
         // 约定2：认为左边对象 小于 右边对象 请您返回负整数
         // 约定3：认为左边对象 等于 右边对象 请您一定返回0

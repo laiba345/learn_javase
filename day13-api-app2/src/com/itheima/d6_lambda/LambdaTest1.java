@@ -2,6 +2,7 @@ package com.itheima.d6_lambda;
 
 public class LambdaTest1 {
     public static void main(String[] args) {
+        // 之前匿名内部类的写法;
         // 目标：认识Lambda表达式.
 //        Animal a = new Animal(){
 //            @Override
@@ -12,6 +13,7 @@ public class LambdaTest1 {
 //        a.run();
 
           // 注意：Lambda表达式并不是说能简化全部匿名内部类的写法，只能简化函数式接口的匿名内部类。
+         // 只能简化函数式接口的匿名内部类;(首先它必须是一个接口,其次这个接口有且只能有一个抽象方法)
          //  错误的代码！
 //        Animal a = () -> {
 //            System.out.println("狗跑的贼快~~");

@@ -27,7 +27,7 @@ public class ArraysTest1 {
         Arrays.setAll(prices, new IntToDoubleFunction() {
             @Override
             public double applyAsDouble(int value) {
-                // value = 0  1  2
+                // value = 0  1  2; value取的值是数组的相关索引;
                 return prices[value] * 0.8;
             }
         });
