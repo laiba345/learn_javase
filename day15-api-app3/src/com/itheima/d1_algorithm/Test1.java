@@ -20,6 +20,7 @@ public class Test1 {
             // 3、定义一个循环控制每轮比较几次。
             for (int j = 0; j < arr.length - i - 1; j++) {
                 // 判断当前位置的元素值，是否大于后一个位置处的元素值，如果大则交换。
+                //
                 if(arr[j] > arr[j+1]){
                     int temp = arr[j + 1];
                     arr[j + 1] = arr[j];

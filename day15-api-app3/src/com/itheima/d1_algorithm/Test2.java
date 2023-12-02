@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  *  目标：掌握选择排序。
  */
-public class Test2 {
+public class    Test2 {
     public static void main(String[] args) {
         // 1、准备好一个数组
         int[] arr = {5, 1, 3, 2};
