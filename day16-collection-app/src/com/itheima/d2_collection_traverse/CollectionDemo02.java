@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 /**
      目标：Collection集合的遍历方式二：增强for
+     使用增强for来进行相关的遍历操作;
  */
 public class CollectionDemo02 {
     public static void main(String[] args) {
@@ -24,6 +25,5 @@ public class CollectionDemo02 {
         for (String name : names) {
             System.out.println(name);
         }
-
     }
 }

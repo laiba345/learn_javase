@@ -16,6 +16,8 @@ public class CollectionTest1 {
         System.out.println(list);
         //  [王麻子, 小李子, 李爱花, 张全蛋, 晓李, 李玉刚]
 
+        // 因为每个list对象是一个string,可以通过contains来判断是否存在某个元素;
+
         // 需求：找出集合中全部带“李”的名字，并从集合中删除。
 //        Iterator<String> it = list.iterator();
 //        while (it.hasNext()){

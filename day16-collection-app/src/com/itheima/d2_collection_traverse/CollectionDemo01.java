@@ -20,6 +20,7 @@ public class CollectionDemo01 {
 
         // 使用迭代器遍历集合
         // 1、从集合对象中获取迭代器对象。
+        // 迭代器遍历的情形;
         Iterator<String> it = c.iterator();
 //        System.out.println(it.next());
 //        System.out.println(it.next());
@@ -31,9 +32,7 @@ public class CollectionDemo01 {
         while (it.hasNext()){
             String ele = it.next();
             System.out.println(ele);
-
         }
-
     }
 }
 

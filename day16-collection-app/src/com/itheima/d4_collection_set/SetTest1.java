@@ -3,7 +3,7 @@ package com.itheima.d4_collection_set;
 import java.util.*;
 
 /**
- * 目标：整体了解一下Set系列集合的特点。
+ * 目标：整体了解一下Set系列集合的特点
  */
 public class SetTest1 {
     public static void main(String[] args) {

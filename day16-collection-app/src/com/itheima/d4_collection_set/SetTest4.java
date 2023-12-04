@@ -23,6 +23,7 @@ public class SetTest4 {
 //                return Double.compare(o1.getHeight() , o2.getHeight());
 //            }
 //        });
+//         按照身高高度来进行排序操作;
         Set<Student> students = new TreeSet<>(( o1,  o2) ->  Double.compare(o1.getHeight() , o2.getHeight()));
         students.add(new Student("蜘蛛精",23, 169.7));
         students.add(new Student("紫霞",22, 169.8));
