@@ -15,6 +15,7 @@ public class Test {
 
         List<String> cities1 = new ArrayList<>();
         Collections.addAll(cities1, "南京市","扬州市","苏州市" ,"无锡市","常州市");
+        // map.put方法是将指定的键和值关联起来;
         map.put("江苏省", cities1);
 
         List<String> cities2 = new ArrayList<>();

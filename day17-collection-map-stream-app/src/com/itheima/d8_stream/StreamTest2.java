@@ -26,6 +26,7 @@ public class StreamTest2 {
         map.put("马尔扎哈", 166.3);
         map.put("卡尔扎巴", 168.3);
 
+        // 对于map集合来获取相应的相关操作;
         Set<String> keys = map.keySet();
         Stream<String> ks = keys.stream();
 

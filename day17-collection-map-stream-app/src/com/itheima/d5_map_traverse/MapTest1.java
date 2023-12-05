@@ -26,7 +26,7 @@ public class MapTest1 {
         //         key
         // 2、遍历全部的键，根据键获取其对应的值
         for (String key : keys) {
-            // 根据键获取对应的值
+            // 根据键获取对应的值; 根据键找到相应的值,而且要看值是通过什么来修饰的;
             double value = map.get(key);
             System.out.println(key + "=====>" + value);
         }

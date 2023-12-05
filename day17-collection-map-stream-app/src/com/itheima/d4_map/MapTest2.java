@@ -2,6 +2,7 @@ package com.itheima.d4_map;
 
 /**
  * 目标：掌握Map集合的常用方法
+ * 比如说添加元素等等;
  */
 
 import java.util.*;

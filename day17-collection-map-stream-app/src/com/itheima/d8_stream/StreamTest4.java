@@ -4,6 +4,16 @@ import java.util.stream.Collectors;
 
 /**
  * 目标：Stream流的终结方法
+ *  - 终结方法指的是: 调用完成后,不会返回新的Stream了,没法继续使用流了;
+ *      - forEach
+ *      - count
+ *      - max
+ *      - min
+ *
+ *   - 收集Stream流: 就是把Strea流操作后的结果转回到集合或者数组中去返回
+ *   - Stream流: 方便操作的集合/数组的手段; 集合/数组: 才是开发的目的
+ *      - collect()
+ *      - toArray()
  */
 public class StreamTest4 {
     public static void main(String[] args) {
@@ -20,6 +30,7 @@ public class StreamTest4 {
         System.out.println(size);
 
         // 需求2：请找出身高最高的学生对象，并输出。
+        // max当中也需要声明一个比较规则;
         Student s = students.stream().max((o1, o2) -> Double.compare(o1.getHeight(), o2.getHeight())).get();
         System.out.println(s);
 
@@ -28,7 +39,7 @@ public class StreamTest4 {
         System.out.println(ss);
 
         // 需求4：请找出身高超过170的学生对象，并放到一个新集合中去返回。
-        // 流只能收集一次。
+        // 流只能收集一次。 类似与迭代器,不能将相关的方法进行抽取操作;
         List<Student> students1 = students.stream().filter(a -> a.getHeight() > 170).collect(Collectors.toList());
         System.out.println(students1);
 

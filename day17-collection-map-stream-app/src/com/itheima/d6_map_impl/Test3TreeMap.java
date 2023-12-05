@@ -8,6 +8,7 @@ import java.util.TreeMap;
  * 目标：掌握TreeMap集合的使用。
  */
 public class Test3TreeMap {
+    // TreeMap里面有内部构造器,其是有排序功能的,这一点很关键;
     public static void main(String[] args) {
         Map<Student, String> map = new TreeMap<>(new Comparator<Student>() {
             @Override

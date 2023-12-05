@@ -6,6 +6,9 @@ import java.util.TreeMap;
 
 /**
  * 目标：掌握Map集合的特点。
+ * 1. 有序
+ * 2. 不重复
+ * 3. 无索引
  */
 public class MapTest1 {
     public static void main(String[] args) {

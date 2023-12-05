@@ -4,6 +4,7 @@ import java.util.LinkedHashMap;
 
 /**
  * 目标：掌握LinkedHashMap的底层原理。
+ * 很多map方法是可以精准去重的;
  */
 public class Test2LinkedHashMap {
     public static void main(String[] args) {

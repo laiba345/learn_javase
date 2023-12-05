@@ -17,6 +17,7 @@ public class MapTest2 {
 
         // 1、调用Map集合提供entrySet方法，把Map集合转换成键值对类型的Set集合
         Set<Map.Entry<String, Double>> entries = map.entrySet();
+//        System.out.println(entries); // 放在一个数组当中;
         for (Map.Entry<String, Double> entry : entries) {
             String key = entry.getKey();
             double value = entry.getValue();

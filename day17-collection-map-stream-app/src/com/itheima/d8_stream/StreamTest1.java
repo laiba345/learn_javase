@@ -4,6 +4,7 @@ import java.util.stream.Collectors;
 
 /**
    目标：初步体验Stream流的方便与快捷
+
  */
 public class StreamTest1 {
     public static void main(String[] args) {
@@ -14,6 +15,7 @@ public class StreamTest1 {
         //          name
 
         // 找出姓张，且是3个字的名字，存入到一个新集合中去。
+        // 先创建出一个新的集合;
         List<String> list = new ArrayList<>();
         for (String name : names) {
             if(name.startsWith("张") && name.length() == 3){
@@ -22,7 +24,8 @@ public class StreamTest1 {
         }
         System.out.println(list);
 
-        // 开始使用Stream流来解决这个需求。
+        // 开始使用Stream流来解决这个需求。; 有点类似与js中的数组操作方式;
+        // collect表示收集的方式;
         List<String> list2 = names.stream().filter(s -> s.startsWith("张"))
                 .filter(a -> a.length()==3).collect(Collectors.toList());
         System.out.println(list2);
