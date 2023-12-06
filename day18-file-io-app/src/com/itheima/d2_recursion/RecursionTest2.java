@@ -13,6 +13,7 @@ public class RecursionTest2 {
         if(n == 1){
             return 1;
         }else {
+            // 调用子方法;
             return f(n - 1) * n;
         }
     }

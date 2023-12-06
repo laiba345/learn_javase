@@ -9,6 +9,10 @@ public class RecursionTest1 {
     }
 
     // 直接方法递归
+    /*
+    *   递归: 核心思想: 将问题分解为更小、更简单的相似子问题来解决;
+    *   --- 这种方法通常涉及函数调用自身的过程,直到问题减小到可以直接解决的程度为止;
+    * */
     public static void test1(){
         System.out.println("----test1---");
         test1(); // 直接方法递归
