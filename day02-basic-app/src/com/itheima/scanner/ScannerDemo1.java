@@ -10,10 +10,12 @@ public class ScannerDemo1 {
 
         // 3、开始 调用sc的功能，来接收用户键盘输入的数据。
         System.out.println("请您输入您的年龄：");
+        // 输入的是一个整数
         int age = sc.nextInt(); // 执行到这儿，会开始等待用户输入一个整数，直到用户按了回车键，才会拿到数据。
         System.out.println("您的年龄是："  + age);
 
         System.out.println("请您输入您的名字：");
+        // 输入的是一个字符串
         String name = sc.next(); // 执行到这儿，会开始等待用户输入一个字符串，直到用户按了回车键，才会拿到数据。
         System.out.println(name + "欢迎您进入系统~~");
     }

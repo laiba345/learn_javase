@@ -2,6 +2,7 @@ package com.itheima.operator;
 
 public class OperatorDemo3 {
     public static void main(String[] args) {
+        // 有点类似于强制类型的转换操作
         // 目标：掌握扩展赋值运算符的使用。
         // +=
         // 需求：收红包

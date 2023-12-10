@@ -19,6 +19,10 @@ public class OperatorDemo4 {
         System.out.println(a != b); // true
         System.out.println(10 != 10); // false
 
+        /*
+        * ^ 表示异或运算符,
+        * 表示: 只有操作数不同时返回true，否则返回false
+        * */
         System.out.println(false ^ true ^ false);
     }
 }

@@ -2,6 +2,10 @@ package com.itheima.operator;
 
 public class OperatorDemo5 {
     public static void main(String[] args) {
+        /*
+        * & 和 && 的区别
+        * &无论如何都会计算两侧的表达式,而&&具有短路特性
+        **/
         // 目标：掌握逻辑运算符的使用。
         // 需求：要求手机必须满足尺寸大于等于6.95，且内存必须大于等于8.
         double size = 6.8;

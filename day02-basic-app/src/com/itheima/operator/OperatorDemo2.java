@@ -4,8 +4,13 @@ public class OperatorDemo2 {
     public static void main(String[] args) {
         // 目标：掌握自增自减运算符的使用。
         int a = 10;
-        // a++; // a = a + 1
-        ++a;
+//         a++; // a = a + 1
+//        ++a;
+//        System.out.println(++a);
+        /*
+        * 如果先单独运行a++或者++a的话,后续再进行单独操作的话,都会对a的值进行改变;
+        * */
+        System.out.println(a++);
         System.out.println(a);
 
         // a--; // a = a - 1
