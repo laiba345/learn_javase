@@ -19,6 +19,7 @@ public class IfDemo1 {
         }
 
         // 需求3：某个公司有一个绩效系统，根据员工的打分输出对应的绩效级别。[0,60) D  [60,80) C [80,90) B [90,100] A
+        // if()...else if()...else
         int score = 298;
         if(score >= 0 && score < 60) {
             System.out.println("您的绩效级别是： D");

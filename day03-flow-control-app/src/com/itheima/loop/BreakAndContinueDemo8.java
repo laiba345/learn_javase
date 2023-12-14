@@ -19,7 +19,7 @@ public class BreakAndContinueDemo8 {
         // 第三天的时候，你表现很好，第三天不用洗碗，但是不解恨，第四天还是要继续的。
         for (int i = 1; i <= 5; i++) {
             if(i == 3) {
-                // 已经到了第三天，第三天不用洗的。
+                // 已经到了第三天，第三天不用洗的。; 仅仅只是结束本轮循环
                 continue;
             }
             System.out.println("洗碗：" + i);

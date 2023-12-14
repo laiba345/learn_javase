@@ -3,6 +3,10 @@ package src.com.itheima.branch;
 public class SwitchDemo3 {
     public static void main(String[] args) {
         // 目标：搞清楚switch使用时的几点注意事项。
+        /*
+        * 1. case的值只能是字面量, 不能是变量
+        * 2. 正常使用switch的时候, 不要忘记写break, 否则会出现穿透现象
+        * */
         // 1、表达式类型只能是byte、short、int、char，JDK5开始支持枚举，JDK7开始支持String、不支持double、float、long。
         int a = 10;
         double b = 0.1;

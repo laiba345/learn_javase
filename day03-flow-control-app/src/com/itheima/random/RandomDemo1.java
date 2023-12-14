@@ -19,6 +19,7 @@ public class RandomDemo1 {
         for (int i = 1; i <= 20; i++) {
             // 生成：1-10之间的随机数
             // 1-10 => -1 => (0 - 9) + 1
+            // nextInt(seed); 需要添加一个种子的操作;
             int data2 = r.nextInt(10) + 1;
             System.out.println(data2);
         }

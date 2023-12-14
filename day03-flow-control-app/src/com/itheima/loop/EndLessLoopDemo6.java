@@ -10,7 +10,7 @@ public class EndLessLoopDemo6 {
       /*  while (true) {
             System.out.println("Hello World2");
         }*/
-
+        // do...while; 肯定会先执行一次;
         do {
             System.out.println("Hello World3");
         }while (true);

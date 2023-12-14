@@ -11,7 +11,7 @@ public class RandomTest2 {
         int luckNumber = r.nextInt(100) + 1;
 
         // 2、定义一个死循环，让用户不断的猜测数据
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); // 用户输入的一个操作点;
         while (true) {
             // 提示用户猜测
             System.out.println("请您输入您猜测的数据：");
