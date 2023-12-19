@@ -20,6 +20,15 @@ public class ArrayDemo5 {
 
         System.out.println("---------------------------");
 
+        /*
+        *   数组类型
+        *   1. char
+        *   2. double
+        *   3. boolean
+        *   4. string
+        *   5. int
+        * */
+
         char[] chars = new char[3]; // [0, 0, 0]
         System.out.println((int)chars[0]);
         System.out.println((int)chars[2]);

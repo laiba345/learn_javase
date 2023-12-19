@@ -11,6 +11,15 @@ public class ArrayDemo2 {
         System.out.println(arr1);
         System.out.println(arr2);
 
+        int a = 1;
+        int b = 2;
+
+        /*
+        *  ==; 用于比较两个对象引用,(对象内存地址); 检查它们是否指向内存中的相同对象
+        *  ===; java中并没有该类表达式; java中比较基本数据类型,使用的是 .equals() 方法
+        * */
+        System.out.println(arr1 == arr2); // true
+
         arr2[1] = 99;
         System.out.println(arr1[1]);
 

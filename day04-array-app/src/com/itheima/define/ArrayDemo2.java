@@ -11,7 +11,7 @@ public class ArrayDemo2 {
         System.out.println(arr[2]);
         // System.out.println(arr[3]);
 
-        // 2、修改数组中的数据
+        // 2、修改数组中的数据; 直接通过赋值的方式来进行相关操作即可;
         arr[0] = 66;
         arr[2] = 100;
         System.out.println(arr[0]);

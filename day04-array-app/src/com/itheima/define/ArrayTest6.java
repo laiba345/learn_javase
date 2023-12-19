@@ -10,12 +10,13 @@ public class ArrayTest6 {
 
         // 用于承接用户的输入;
         Scanner sc  = new Scanner(System.in);
+//        Scanner sc = new Scanner(System.in);
 
         // 2、遍历数组中的每个位置，录入评委的分数，存入到数组中去
         for (int i = 0; i < scores.length; i++) {
             // i = 0 1 2 3 4 5
             System.out.println("请您输入当前第" + (i + 1) +"个评委的分数：");
-            double score = sc.nextDouble();
+            double score = sc.nextDouble(); // 什么类型的数组,需要用什么来进行接收;
             scores[i] = score;
         }
 
