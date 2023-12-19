@@ -13,6 +13,7 @@ public class Test1 {
             // 旺季
             // 2、判断仓位类型。
             switch (type){
+                // case里面的值一定是 自面量类型;
                 case "头等舱":
                     price *= 0.9; // price = price * 0.9;
                     break;

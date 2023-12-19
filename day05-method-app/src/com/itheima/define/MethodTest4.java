@@ -6,6 +6,7 @@ public class MethodTest4 {
     public static void main(String[] args) {
         // 目标：掌握设计方法的技巧。
         // 可以使用某个元素来承接
+        // 有返回值的函数, 在进行调用时候, 调用结束需要使用某个变量来进行接收操作;
         int rs = add(5);
         System.out.println("1-5的和是：" + rs);
 
