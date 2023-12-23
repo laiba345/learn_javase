@@ -6,6 +6,7 @@ public class Test {
         // 1、创建一个学生对象，封装播妞的数据
         Student s1 = new Student();
         s1.name = "播妞";
+//        System.out.println(s1.name);
         s1.chinese = 100;
         s1.math = 100;
         s1.printTotalScore();

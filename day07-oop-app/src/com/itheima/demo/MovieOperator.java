@@ -2,8 +2,9 @@ package com.itheima.demo;
 
 public class MovieOperator {
     // 数据, 甚至可以创建为一个个数组
+    // 创建为一个合理的数组;
     private Movie[] movies;
-    // 创建相应的方法;
+    // 创建相应的方法; 方法中可以放入数组类型作为参数;
     public MovieOperator(Movie[] movies){
         this.movies = movies;
     }
