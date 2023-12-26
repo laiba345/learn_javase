@@ -25,6 +25,7 @@ public class StringDemo1 {
         char[] chars = {'a', '黑', '马'};
         String rs3 = new String(chars);
         System.out.println(rs3);
+        System.out.println(rs3.getClass());
 
         byte[] bytes = {97, 98, 99};
         String rs4 = new String(bytes);
