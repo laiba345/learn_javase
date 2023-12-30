@@ -1,4 +1,4 @@
-package com.jdbc;
+package com.jdbc;//package com.jdbc;
 //import com.mysql.jdbc.Driver;
 import com.mysql.cj.jdbc.Driver;
 
@@ -49,7 +49,10 @@ public class jdbc01 {
 
         // 3. 执行sql
         // String sql = "INSERT INTO actor VALUES(001, 'hk', '男', '1999-05-17', '110')";
-        String sql = "INSERT INTO actor VALUES(002, 'zj', '男', '1998-07-27', '118')";
+        // String sql = "INSERT INTO actor VALUES(002, 'zj', '男', '1998-07-27', '118')";
+        // String sql = "INSERT INTO actor VALUES(003, 'zst', '女', '1998-07-27', '111')";
+         String sql = "INSERT INTO actor VALUES(004, 'zst', '女', '1998-07-27', '111')";
+        // String sql = "select * from actor";
         // statement 表示用于执行静态SQL语句并返回其生成的结果的对象;
         Statement statement = connect.createStatement();
         int row = statement.executeUpdate(sql); // 如果是dml语句,返回的就是影响行数
