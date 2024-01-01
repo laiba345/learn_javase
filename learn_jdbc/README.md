@@ -25,4 +25,5 @@ JDBC连接数据库的流程
 7. PreparedStatement preparedStatement = connection.preparedStatement(sql);
 - 上述代码表示实现了PreparedStatement接口的实现类的对象 
 8. 执行select语句使用executeQuery, 执行dml语句使用executeUpdate; 
+9. 通过预处理来DML语句来进行相关操作; 
 
