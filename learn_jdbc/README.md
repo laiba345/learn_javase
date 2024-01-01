@@ -26,4 +26,6 @@ JDBC连接数据库的流程
 - 上述代码表示实现了PreparedStatement接口的实现类的对象 
 8. 执行select语句使用executeQuery, 执行dml语句使用executeUpdate; 
 9. 通过预处理来DML语句来进行相关操作; 
+10. Transaction_.java; 用于对事务的相关处理操作; 
+11. Batch 包用于演示批处理操作; 
 
