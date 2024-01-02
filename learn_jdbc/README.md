@@ -27,5 +27,7 @@ JDBC连接数据库的流程
 8. 执行select语句使用executeQuery, 执行dml语句使用executeUpdate; 
 9. 通过预处理来DML语句来进行相关操作; 
 10. Transaction_.java; 用于对事务的相关处理操作; 
-11. Batch 包用于演示批处理操作; 
-
+11. Batch 包用于演示批处理操作;  
+12. 连接的时候,其实底层是需要走socket连接的, 这是很耗费时间的操作; 
+13. 数据库种类中,C3P0和Druid用的是最多的; 
+14. C3P0和mychange这两个jar包是配合使用的;

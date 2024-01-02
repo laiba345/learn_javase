@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<c3p0-config>
+
+  <default-config>
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql://localhost:3306/hsp_db01</property>
+    <property name="user">root</property>
+    <property name="password">175511</property>
+
+    <!--  每次增长的连接数  -->
+    <property name="acquireIncrement">1</property>
+    <property name="initialPoolSize">5</property>
+    <property name="maxPoolSize">10</property>
+    <property name="checkoutTimeout">3000</property>
+    <!--  可连接的最多的命令对象数  -->
+    <property name="maxStatements">5</property>
+  </default-config>
+  <!-- 数据源名称,代表连接池  -->
+  <named-config name="hsp_edu">
+  </named-config>
+</c3p0-config>
