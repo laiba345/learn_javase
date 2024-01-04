@@ -44,4 +44,4 @@ JDBC连接数据库的流程
 知识点; 
 1. 在Java中，Properties类用于管理属性文件。属性文件通常是以.properties为扩展名的文本文件，用于存储配置数据，比如应用程序的设置、键值对等;
 2. Druid连接数据库, 可以自己书写连接数据库, 也可以通过配置文件的快捷操作;
-
+3. 关于DBUtils的使用; 连接还是使用的Druid方法, 但是对于sql语句的处理, 以及结果集的存储, 使用的是  QueryRunner queryRunner = new QueryRunner();来进行相关处理操作; 
