@@ -1,2 +1,4 @@
 # learn_javase
-黑马2023javase学习
+1. Java的基础语法;
+2. Maven的使用; 
+3. JDBC的使用; 
