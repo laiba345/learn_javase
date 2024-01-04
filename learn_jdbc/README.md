@@ -20,11 +20,15 @@ JDBC连接数据库的流程
 - 通过nextLine()方法, 可以直接通过回车来表示判断
 6. PreparedStatement的预处理好处(编译;)
 - 不再使用 + 拼接sql语句, 减少语法错误; 
-- 有效的解决了sql注入问题; 
+- 有效的解决了sql注入问题;
+  - sql注入问题: 是一种安全漏洞,允许攻击者通过在应用程序中输入字段中注入恶意的SQL代码来访问或修改数据库;
+  - 这种漏洞通常出现在未经充分验证和过滤的用户输入中，比如表单、搜索框或URL参数。
+  - 使用参数化查询(Prepared Statements);
+    - 使用参数化查询或预编译语句来构建SQL查询,这样可以将用户输入作为参数传递给数据库,而不是将其直接插入到SQL语句中; 
 - 大大减少了编译次数,效率较高; 
 7. PreparedStatement preparedStatement = connection.preparedStatement(sql);
 - 上述代码表示实现了PreparedStatement接口的实现类的对象 
-8. 执行select语句使用executeQuery, 执行dml语句使用executeUpdate; 
+8. **执行select语句使用executeQuery, 执行dml语句使用executeUpdate**; 
 9. 通过预处理来DML语句来进行相关操作; 
 10. Transaction_.java; 用于对事务的相关处理操作; 
 11. Batch 包用于演示批处理操作;  
